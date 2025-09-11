@@ -32,6 +32,19 @@
 
 //Solution
 
+
+// "Use a map to store each number from the array along with its index.
+
+// For each element in the array, calculate the difference (target - current number).
+
+// Check if this difference already exists in the map:
+
+// If yes → return the stored index (for the difference) and the current index.
+
+// If no → store the current number and its index in the map.
+
+// If no pair is found by the end, return {-1, -1}."
+
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -57,3 +70,5 @@ public class TwoSum {
 
     }
 }
+
+
