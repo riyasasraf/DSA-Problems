@@ -19,7 +19,7 @@ public class KSizedSubarrayMaximum {
         deque.pollFirst();
       }
       while (!deque.isEmpty() && arr[deque.peekLast()] < arr[i]) {
-        deque.pollLast()();
+        deque.pollLast();
       }
       deque.offer(i);
       if (i >= k - 1) {
